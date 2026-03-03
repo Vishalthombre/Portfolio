@@ -2,6 +2,10 @@ import './App.css'
 
 import { useMemo, useState } from 'react'
 
+const baseUrl = import.meta.env.BASE_URL
+
+const withBase = (path) => `${baseUrl}${path.replace(/^\/+/, '')}`
+
 const navItems = ['About', 'Resume', 'Portfolio', 'Contact']
 
 const services = [
@@ -98,7 +102,7 @@ const portfolioProjects = [
     id: 'wikamaint',
     title: 'WIKAMAINT - Maintenance Ticket Management',
     category: 'Industry Project',
-    coverImage: '/projects/wikamaint-login.svg',
+    coverImage: withBase('/projects/wikamaint-login.svg'),
     description:
       'A production-focused web platform built for WIKA to manage maintenance tickets, role-based access, and department workflows across plant operations.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'REST APIs'],
@@ -110,22 +114,22 @@ const portfolioProjects = [
     ],
     images: [
       {
-        src: '/projects/wikamaint-login.svg',
+        src: withBase('/projects/wikamaint-login.svg'),
         title: 'Login Screen',
         note: 'Secure authentication entry for Global ID users.',
       },
       {
-        src: '/projects/wikamaint-dashboard.svg',
+        src: withBase('/projects/wikamaint-dashboard.svg'),
         title: 'Main Dashboard',
         note: 'Module overview with quick-access cards and profile panel.',
       },
       {
-        src: '/projects/wikamaint-admin.svg',
+        src: withBase('/projects/wikamaint-admin.svg'),
         title: 'System Admin',
         note: 'User management, role assignment, and access control table.',
       },
       {
-        src: '/projects/wikamaint-facility.svg',
+        src: withBase('/projects/wikamaint-facility.svg'),
         title: 'Facility Dashboard',
         note: 'Operational ticket log with status tracking and department controls.',
       },
@@ -275,7 +279,7 @@ function ResumeSection() {
       </div>
 
       <div className="resume-cta">
-        <a href="/VishalThombreResume.pdf" className="download-btn" download>
+        <a href={withBase('/VishalThombreResume.pdf')} className="download-btn" download>
           <span className="material-symbols-outlined">description</span>
           Download CV
         </a>
