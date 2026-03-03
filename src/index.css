@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+:root {
+  --bg: #111319;
+  --surface: #1c1f27;
+  --line: #2d313d;
+  --text-main: #d9dee8;
+  --text-soft: #a9b1bf;
+  --accent: #e5b73d;
+  font-family: 'Outfit', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--text-main);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, #17233a 0%, transparent 42%),
+    radial-gradient(circle at right 75%, #2a2216 0%, transparent 37%),
+    var(--bg);
+}
+
+@media (max-width: 720px) {
+  body {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e4e8ee"/>
+  <rect x="0" y="0" width="1280" height="72" fill="#0f3b9d"/>
+  <text x="24" y="46" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">WIKAMAINT</text>
+  <text x="190" y="150" fill="#0e2246" font-family="Arial, sans-serif" font-size="56" font-weight="700">System Admin</text>
+  <rect x="115" y="190" width="1050" height="420" rx="14" fill="#ffffff" stroke="#d2d9e4"/>
+  <rect x="132" y="218" width="800" height="40" rx="10" fill="#f3f6fb" stroke="#d2d9e4"/>
+  <rect x="946" y="218" width="200" height="40" rx="20" fill="#d7e9ff"/>
+  <rect x="115" y="286" width="1050" height="56" fill="#f8f9fc"/>
+  <rect x="115" y="342" width="1050" height="100" fill="#ffffff"/>
+  <rect x="115" y="442" width="1050" height="100" fill="#ffffff"/>
+  <line x1="115" y1="342" x2="1165" y2="342" stroke="#dde2ea"/>
+  <line x1="115" y1="442" x2="1165" y2="442" stroke="#dde2ea"/>
+  <line x1="115" y1="542" x2="1165" y2="542" stroke="#dde2ea"/>
+  <text x="640" y="670" text-anchor="middle" fill="#30415f" font-size="34" font-family="Arial, sans-serif" font-weight="700">WIKAMAINT ADMIN PANEL</text>
+</svg>

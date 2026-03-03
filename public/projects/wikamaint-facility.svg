@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e4e8ee"/>
+  <rect x="0" y="0" width="1280" height="72" fill="#0f3b9d"/>
+  <text x="24" y="45" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">FACILITY DEPT</text>
+  <rect x="60" y="130" width="160" height="46" rx="23" fill="#0f3b9d"/>
+  <rect x="235" y="130" width="160" height="46" rx="23" fill="#ffffff" stroke="#ccd4e2"/>
+  <rect x="410" y="130" width="160" height="46" rx="23" fill="#ffffff" stroke="#ccd4e2"/>
+  <rect x="585" y="130" width="160" height="46" rx="23" fill="#ffffff" stroke="#ccd4e2"/>
+  <text x="60" y="248" fill="#0f3b9d" font-family="Arial, sans-serif" font-size="56" font-weight="700">Facility Admin</text>
+  <rect x="60" y="292" width="350" height="76" rx="12" fill="#ffffff" stroke="#d2d9e4"/>
+  <rect x="430" y="292" width="350" height="76" rx="12" fill="#ffffff" stroke="#d2d9e4"/>
+  <rect x="800" y="292" width="350" height="76" rx="12" fill="#ffffff" stroke="#d2d9e4"/>
+  <rect x="60" y="390" width="1090" height="250" rx="14" fill="#ffffff" stroke="#d2d9e4"/>
+  <rect x="980" y="412" width="150" height="40" rx="20" fill="#f1f3f8"/>
+  <line x1="60" y1="480" x2="1150" y2="480" stroke="#dfe4ec"/>
+  <line x1="60" y1="546" x2="1150" y2="546" stroke="#dfe4ec"/>
+  <line x1="60" y1="602" x2="1150" y2="602" stroke="#dfe4ec"/>
+  <text x="640" y="680" text-anchor="middle" fill="#30415f" font-size="34" font-family="Arial, sans-serif" font-weight="700">WIKAMAINT FACILITY DASHBOARD</text>
+</svg>
